@@ -1,0 +1,99 @@
+#grid {
+    display: grid;
+    background-color: #1e6d78; 
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(6, 100px); 
+    gap: 10px; 
+}
+
+header {
+    grid-column: 1 / -1; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 10px; 
+}
+
+#txt {
+    color: white; 
+    font-size: 2em; 
+    text-align: center; 
+}
+
+
+#skills1, #skills2, #skills3, #skills4, #skills5 {
+    background-color: #B0B0B0; 
+    color: #000; 
+    padding: 15px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    grid-column: span 6; 
+}
+
+
+p {
+    margin: 0; 
+    line-height: 1.5; 
+}
+
+#back {
+        
+    display: block; 
+    margin: 0 auto 20px; 
+    text-decoration: none; 
+    width: 10%;
+    color: white;
+    background-color: #007BFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+#back:hover {
+    background-color: #0056b3; 
+}
+
+#fundo{
+    background-color: #1e6d78;
+    height: 100px;
+}
+#projetos {
+    grid-column: 1 / -1; 
+    grid-row: 8; 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    color: white;
+    background-color: #007BFF; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+#projetos:hover {
+    background-color: #0056b3; 
+}
+
+
+
+
+
+#botao-projetos {
+    grid-column: 1 / -1; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 5px; 
+}
+
+#projetos {
+    padding: 10px 20px; 
+    color: white;
+    background-color: #007BFF; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+#projetos:hover {
+    background-color: #0056b3; 
+}

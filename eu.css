@@ -1,0 +1,75 @@
+/* Estilos Gerais */
+body {
+    background-color: #1e6d78; 
+    color: black; 
+    transition: background-color 0.3s, color 0.3s; 
+    padding: 20px; 
+}
+
+#main {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    height: 80vh;
+}
+
+#voltar {
+    display: block; 
+    margin: 0 auto 20px; 
+    text-decoration: none; 
+    width: 10%;
+    color: white;
+    background-color: #007BFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+#voltar:hover {
+    background-color: #0056b3; 
+}
+
+#quem, #texto, #Cisco {
+    flex: 1; 
+    margin-right: 20px; 
+    font-size: 3vh;
+}
+
+#Cisco img {
+    height: auto; 
+    max-width: 100%; 
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+body.dark-mode #toggleButton {
+    background-color: #6a6a6a; 
+    color: #ffffff; 
+}
+
+body.dark-mode #toggleButton:hover {
+    background-color: #858585; 
+}
+
+/* Estilo do botão */
+#toggleButton {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4a9cb9; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#toggleButton:hover {
+    background-color: #3b7a8c; 
+}

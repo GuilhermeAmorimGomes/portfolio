@@ -1,0 +1,139 @@
+#head {
+    background-color: #1e6d78;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 142px 800px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    align-items: center;
+}
+
+#a,
+#habilidades, 
+#projetos,
+#contato {
+    text-align: center;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    color: #d0e31e;
+}
+
+#imgGui img {
+    height: auto;
+    width: 80%;
+    max-width: 550px;
+}
+
+.branco_centro {
+    color: white;
+    text-align: center;
+    grid-column: 5 / 6;
+    grid-row: 1;
+}
+
+#nome {
+    grid-column: 1 / 6;
+    grid-row: 1;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#imgGui {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    text-align: center;
+}
+
+#body01 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.dropdown {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body.dark-mode {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Cor do texto clara */
+}
+
+body.dark-mode #head {
+    background-color: #1a1a1a; /* Cor de fundo do cabeçalho no modo escuro */
+}
+
+body.dark-mode #a,
+body.dark-mode #habilidades, 
+body.dark-mode #projetos,
+body.dark-mode #contato {
+    color: #d0e31e; /* Cor do texto no modo escuro */
+}
+
+body.dark-mode .branco_centro,
+body.dark-mode #nome {
+    color: #ffffff; /* Cor do texto do nome e da descrição no modo escuro */
+}
+
+#toggleButton {
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4a9cb9; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#toggleButton:hover {
+    background-color: #3b7a8c; /* Efeito de hover no botão */
+}
+
+body.dark-mode #toggleButton {
+    background-color: #6a6a6a; /* Cor do botão no modo escuro */
+    color: #ffffff; /* Cor do texto do botão no modo escuro */
+}
+
+body.dark-mode #toggleButton:hover {
+    background-color: #858585; /* Efeito de hover no botão no modo escuro */
+}
+
+

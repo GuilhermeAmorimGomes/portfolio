@@ -1,0 +1,92 @@
+
+
+#voltar {
+        
+    display: block; 
+    margin: 0 auto 20px; 
+    text-decoration: none; 
+    width: 10%;
+    color: white;
+    background-color: #007BFF; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+#body05 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #1e6d78;
+    padding: 0;
+}
+
+#txt{
+    font-size: 3vh;
+}
+
+#imagem{
+    height: 25%;
+    width: 20%;
+    text-align: center;
+}
+
+#centro{
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f1f1f1; 
+}
+
+.svg {
+    
+    
+        margin: 0 10px; 
+            
+            
+        width: 40px; 
+            
+           
+        
+          
+        height: 40px; 
+        }
+
+
+        #foot{
+            background-color: #072756;
+            height: 15%;
+        }

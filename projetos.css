@@ -1,0 +1,78 @@
+.imagem {
+    display: none; 
+}
+.imagem.ativa {
+    display: block; 
+}
+
+#texto{
+    font-size: 8vh;
+}
+
+
+
+
+#body04 {
+    display: flex;
+    background-color: #1e6d78;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+#fundo2 {
+    margin-bottom: 20px; 
+}
+
+#back {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+#back:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+h1 {
+    text-align: center; 
+}
+
+.galeria-imagens {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.imagem {
+    max-width: 900px; 
+    margin: 10px; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+ul li {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+ul li a {
+    color: #007BFF; /* Cor azul para o link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+    background-color: black;
+    color: green;
+    font-size: 3vh;
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
